@@ -1,0 +1,6 @@
+.result {
+  text-align: center;
+  margin-top: 2%;
+  font-size: 1.2em;
+  font-family: var(--font-main);
+}

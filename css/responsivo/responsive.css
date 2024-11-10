@@ -1,0 +1,67 @@
+/* Dispositivos móveis (largura até 600px) */
+@media (max-width: 600px) {
+  form {
+    width: 90%;
+    margin: 10% auto;
+  }
+
+  button {
+    width: 100%;
+    height: 45px;
+    margin: 10px 0;
+  }
+
+  input.form-input,
+  select.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .submits {
+    width: 100%;
+    margin: 5px 0;
+    float: none;
+  }
+
+  header h2 {
+    font-size: 1.8em;
+  }
+
+  .result {
+    font-size: 1em;
+  }
+}
+
+/* Tablets (largura até 768px) */
+@media (max-width: 768px) {
+  form {
+    width: 80%;
+  }
+
+  button {
+    width: 100%;
+    height: 50px;
+  }
+
+  input.form-input,
+  select.form-input {
+    width: 100%;
+    padding: 12px;
+  }
+
+  header h2 {
+    font-size: 2em;
+  }
+
+  .result {
+    font-size: 1.1em;
+  }
+}
+
+/* Larguras maiores (desktop) */
+@media (min-width: 1024px) {
+  form {
+    width: 60%;
+  }
+}

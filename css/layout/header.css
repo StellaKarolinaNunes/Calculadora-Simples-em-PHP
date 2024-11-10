@@ -1,0 +1,14 @@
+header {
+  margin: 2% auto 10% auto;
+  text-align: center;
+}
+
+header h2 {
+  font-size: 250%;
+  font-family: var(--font-heading);
+  color: var(--color-text);
+}
+
+header p {
+  letter-spacing: 0.05em;
+}

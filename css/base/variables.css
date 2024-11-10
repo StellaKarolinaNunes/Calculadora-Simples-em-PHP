@@ -1,0 +1,22 @@
+:root {
+  --color-primary: #a8edea;
+  --color-secondary: #d6a6d7;
+  --color-tertiary: #e3fdf5;
+  --color-button: #b8f2e6;
+  --color-text: #3e403f;
+  --color-input-bg: #fff;
+  --color-input-text: #5e6472;
+  --color-button-hover: #252537;
+
+  --font-main: "Abel", sans-serif;
+  --font-heading: "Playfair Display", serif;
+}
+
+body {
+  background-image: linear-gradient(to top, #a8edea 0%, #d6a6d7 100%);
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: "Abel", sans-serif;
+  opacity: 0.95;
+}

@@ -1,0 +1,40 @@
+button {
+  display: inline-block;
+  color: var(--color-button-hover);
+  width: 280px;
+  height: 50px;
+  padding: 0 20px;
+  background: var(--color-input-bg);
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+  margin: 7% auto;
+  letter-spacing: 0.05em;
+}
+
+.submits {
+  width: 48%;
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+}
+
+.limpar {
+  background: transparent;
+}
+
+.calcular {
+  background: var(--color-button);
+}
+
+button:hover {
+  transform: translatey(3px);
+  box-shadow: none;
+}
+
+button:hover {
+  animation: ani9 0.4s ease-in-out infinite alternate;
+}

@@ -1,0 +1,28 @@
+.input-item {
+  background: var(--color-input-bg);
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+input.form-input,
+select.form-input {
+  width: 240px;
+  height: 50px;
+  margin-top: 2%;
+  padding: 15px;
+  font-size: 16px;
+  font-family: var(--font-main);
+  color: var(--color-input-text);
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.2s linear;
+  background-color: var(--color-input-bg);
+}
+
+input.form-input:focus,
+select.form-input:focus {
+  transform: translateX(-2px);
+  border-radius: 5px;
+}
