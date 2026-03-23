@@ -1,145 +1,236 @@
-<h1 align="left"> Calculadora Simples em PHP </h1>
+<h1 align="center">
+     Calculadora Simples em PHP
+  <br />
+  <br />
+  <a href="https://github.com/StellaKarolinaNunes/Calculadora-Simples-em-PHP">
+   <img src="./assets/images/banner.png" alt="Calculadora Simples em PHP Banner" width="100%">
+  </a>
+</h1>
 
-<p align="left">
-  <img src="https://img.shields.io/static/v1?label=html&message=framework&color=blue&style=for-the-badge&logo=html"/>
-    <img src="https://img.shields.io/static/v1?label=css&message=framework&color=blue&style=for-the-badge&logo=css"/>
-      <img src="https://img.shields.io/static/v1?label=php&message=framework&color=blue&style=for-the-badge&logo=php"/>
-  <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=green&style=for-the-badge"/>
-  
-   <img src="http://img.shields.io/static/v1?label=STATUS&message=ANDAMENTO&color=GREEN&style=for-the-badge"/>
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=HTML&message=Frontend&color=e34c26&style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=CSS&message=Styles&color=264de4&style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=PHP&message=Backend&color=777bb4&style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/static/v1?label=License&message=MIT&color=4caf50&style=for-the-badge"/>
+  <img src="https://img.shields.io/static/v1?label=Status&message=In%20Development&color=ffa500&style=for-the-badge"/>
 </p>
 
-<p style="text-align: center;">
-  <img src="images/tela_inicial.png" width="1000" />
-</p>
+<br>
 
-> Status do Projeto: :heavy_check_mark:ANDAMENTO
+---
 
-### Tópicos
+## Introdução
+Bem-vindo ao projeto Calculadora Simples em PHP! Esta é uma ferramenta prática e eficiente, projetada para oferecer uma experiência de cálculo fluida através de uma interface web moderna, minimalista e totalmente responsiva.
 
-:small_blue_diamond: [Descrição do projeto](##descrição-do-projeto)
+<br>
 
-:small_blue_diamond: [Funcionalidades](##Funcionalidades)
+## Por que este projeto?
+O desenvolvimento desta calculadora surgiu do desejo de unir a robustez do PHP no processamento de dados com a elegância do HTML e CSS no front-end. O objetivo foi criar uma aplicação leve que demonstrasse como uma lógica de backend sólida pode ser apresentada de forma profissional e amigável ao usuário final.
 
-:small_blue_diamond: [Tecnologias Utilizadas](##Tecnologias-Utilizadas)
+<br>
 
-:small_blue_diamond: [Como Usar](##Como-Usar)
+## A Solução
+A aplicação entrega uma interface intuitiva onde a complexidade do código é ocultada por um design limpo. A solução oferece:
 
-:small_blue_diamond: [Layout](##Layout)
+Agilidade: Processamento instantâneo de operações básicas e resto da divisão.
+Foco na UX: Design focado na experiência do usuário, evitando elementos desnecessários e distrações.
+Portabilidade: Como uma aplicação web, ela funciona perfeitamente em qualquer navegador e dispositivo, adaptando-se a diferentes tamanhos de tela.
 
-:small_blue_diamond: [FAQ/Perguntas-Frequentes](#FAQ/Perguntas-Frequentes)
+<br>
 
-:small_blue_diamond: [Contributing/Contribuir](#Contributing/Contribuir)
+##  Funcionalidades
+- Operações de Adição, Subtração, Multiplicação e Divisão.
+- Interface amigável e responsiva.
+- Processamento do lado do servidor com PHP.
 
-:small_blue_diamond: [License/Licença do Projeto](#License/Licença-Projeto)
+<br>
 
-## Descrição-do-projeto
+##  Preview
 
-<p align="justify">
+<div align="center">
 
-> **R:**Este é um exercício prático para o aprendizado de **PHP** com manipulação de formulários HTML e estilização CSS.
+<img src="./assets/images/tela_inicial.png" alt="Calculadora Simples em PHP Tela Inicial" width="100%">
 
-  </p>
-  
- Posso gerar meu próprio guia usando esse repositório ?  
- > **R:** Sim! Só pedimos que você faça um link para [Link do Calculadora-Simples-em-PHP](https://github.com/StellaKarolinaNunes/Calculadora-Simples-em-PHP)  😁 e respeite a licença de uso.
+<img src="./assets/images/escolha_operacao.png" alt="Calculadora Simples em PHP Tela Inicial" width="100%">
 
-## Funcionalidades
+</div>
 
-:heavy_check_mark: Este é um exercício prático para o aprendizado de **PHP** com manipulação de formulários HTML e estilização CSS.
+ 
+  ---
 
-A Calculadora Simples em PHP permite que o usuário:
-- Insira dois números.
-- Escolha uma operação entre: 
-  - Soma
-  - Subtração
-  - Multiplicação
-  - Divisão
-  - Resto da Divisão
-- Visualize o resultado do cálculo diretamente na página, logo abaixo do formulário.
+ ##  Estrutura de Pastas
 
-## Tecnologias-Utilizadas
+```bash
+├── assets
+│   └── images
+│       ├── banner.png
+│       ├── escolha_operacao.png
+│       └── tela_inicial.png
+├── css
+│   ├── animations
+│   │   └── button-animations.css
+│   ├── base
+│   │   ├── reset.css
+│   │   └── variables.css
+│   ├── components
+│   │   ├── input.css
+│   │   └── result.css
+│   ├── layout
+│   │   ├── button.css
+│   │   ├── form.css
+│   │   └── header.css
+│   ├── main.css
+│   └── responsivo
+│       └── responsive.css
+├── index.php
+├── License
+│   └── License
+└── README.md
+```
 
-- **HTML5**: para estruturar a página.
-- **CSS3**: para a estilização da interface, incluindo uso de gradientes e ícones.
-- **PHP**: para processar e realizar as operações matemáticas no lado do servidor.
+ <br>
 
-## Como-Usar
+##  Instalação
 
-### Pré-requisitos
+### Pré-requisitos para Rodar a Calculadora Simples em PHP na sua máquina
 
-- Um servidor web com suporte para PHP, como [XAMPP](https://www.apachefriends.org/pt_br/index.html) ou [WAMP](https://www.wampserver.com/).
-- Navegador moderno para acessar a página.
+- PHP 7.4 ou superior
+- Apache ou Nginx
+- MySQL ou MariaDB
+- Composer
 
-### Instalação e Execução
+<br>
 
-1. **Clone o repositório:**
+###  Instalação Rápida
 
-   ```bash
-   git clone https://github.com/seu-usuario/calculadora-simples-php.git
-   ```
+####  1. Clone o repositório
 
-2. **Inicie o servidor web local:**
+```bash
+git clone https://github.com/StellaKarolinaNunes/Calculadora-Simples-em-PHP.git
+```
 
-   - No XAMPP, inicie o **Apache**.
-   - No WAMP, inicie todos os serviços.
+####  2. Entre na pasta do projeto
 
-3. **Acesse o projeto:**
+```bash
+cd Calculadora-Simples-em-PHP
+```
 
-   Coloque os arquivos em uma pasta acessível ao servidor web. Se estiver usando XAMPP, mova os arquivos para a pasta `htdocs` e acesse:
+####  3. Instale as dependências
 
-   ```
-   http://localhost/calculadora-simples-php/
-   ```
+```bash
+composer install
+```
 
-### Uso
+####  4. Inicie o servidor
 
-1. Abra a página da calculadora no navegador.
-2. Insira os números nos campos correspondentes.
-3. Escolha a operação desejada (Soma, Subtração, Multiplicação, Divisão ou Resto).
-4. Clique em **Calcular** para ver o resultado exibido abaixo do formulário.
-5. Para limpar os campos, clique no botão **Limpar**.
+```bash
+php -S localhost:8000
+```
 
-## Layout :dash:
+####  5. Acesse a calculadora no navegador
 
-> **Telas**
+```bash
+http://localhost:8000
+```
 
-<p style="text-align: center;">
-  <img src="images/tela_inicial.png" width="1000" />
-</p>
+##  Roadmap
 
-<p style="text-align: center;">
-  <img src="images/escolha_operacao.png" width="1000" />
-</p>
+### Fase 1: MVP (Mínimo Produto Viável) - Concluído
+- [x]Operações matemáticas básicas (+, -, *, /).
+- [x]Interface web funcional com HTML/CSS.
+- [x]Processamento de dados via POST com PHP.
 
-## FAQ/Perguntas-Frequentes
+### Fase 2: Melhorias de UX & Design - Em Andamento
+- [ ]Implementar Modo Escuro (Dark Mode).
+- [ ]Adicionar Histórico de Cálculos (usando Sessões ou LocalStorage).
+- [ ]Suporte a Atalhos do Teclado para números e operações.
+- [ ]Melhorar animações de feedback visual nos botões.
 
-1. Como posso acessar o projeto e visualizá-lo no navegador?
+### Fase 3: Funções Avançadas
+- [ ]Implementar operações de Potenciação e Raiz Quadrada.
+- [ ]Adicionar funções científicas básicas (Seno, Cosseno, Tangente).
+- [ ]Suporte para cálculos com Parênteses e precedência matemática.
+- [ ]Botão de "Limpar Memória" (MC, MR, M+, M-).
 
-   > **R:** Para visualizar o projeto, você deve configurá-lo em um servidor local com suporte a PHP, como XAMPP ou WAMP. Depois de iniciar o servidor, acesse o projeto no navegador em http://localhost/index.php
+### Fase 4: Excelência Técnica & Portabilidade
+- [ ]Implementar Testes Unitários com PHPUnit para garantir a precisão dos cálculos.
+- [ ]Criar uma API REST para que a lógica da calculadora possa ser usada por outros apps.
+- [ ]Implementar validações de erro mais avançadas (ex: divisão por zero com avisos amigáveis).
+- [ ]Refatoração para o padrão MVC (Model-View-Controller).
 
-2. É possível personalizar a interface e os estilos?
+<br>
 
-   > **R:** Sim, você pode modificar o CSS e alterar a aparência conforme desejar. Os estilos foram desenvolvidos usando CSS3 e gradientes, o que facilita a personalização.
+ ##  Contribuição
+Contribuições são muito bem-vindas! Siga estes passos:
 
-3. O que preciso para contribuir com o projeto?
+### Como Contribuir
+1. **Fork** este repositório
+2. **Clone** seu fork localmente
+3. **Crie** uma branch para sua feature: `git checkout -b feature/nova-funcionalidade`
+4. **Faça** suas alterações e commits
+5. **Teste** suas modificações
+6. **Abra** um Pull Request detalhado
 
-   > **R:** Qualquer pessoa pode contribuir! Basta fazer um fork do repositório, criar uma nova branch para suas alterações e enviar um pull request. As contribuições devem seguir a formatação e estrutura do projeto, conforme descrito na seção de contribuição.
+<br>
 
-4. Posso adicionar novas funcionalidades?
+###  Diretrizes
 
-   > **R:** Claro! Sugestões de novas funcionalidades são bem-vindas. No entanto, priorizamos correções de bugs e melhorias nas funcionalidades existentes. Abra uma nova issue no repositório para discutir suas ideias antes de implementá-las.
+- Código limpo e bem comentado
+- Mensagens de commit claras e objetivas
+- Teste todas as funcionalidades
+- Mantenha a documentação atualizada
+- Siga os padrões de código existentes
 
-5. Como posso reportar problemas ou bugs?
-   > **R:** Para reportar problemas ou bugs, abra uma nova issue no GitHub. Descreva o problema com detalhes e, se possível, inclua capturas de tela e passos para reproduzi-lo.
+<br>
 
-## Desenvolvedores/Contribuintes :octocat:
+##  Licença
 
-Programação:
+Este projeto está licenciado sob a [Licença MIT](./License/License).
 
-| [<img src= "https://github.com/StellaKarolinaNunes.png" width=115><br><sub>Stella Karolina Nunes</sub>](https://github.com/StellaKarolinaNunes)
-| :---: |
+``` bash
+MIT License - você pode usar, modificar e distribuir livremente,
+mantendo a referência ao repositório original.
+```
 
-## Licença
+ <br>
 
-The [MIT License](./License) (MIT)
+ ## Contato
+
+ Se você tiver dúvidas, sugestões ou quiser saber mais sobre o projeto, entre em contato:
+
+ - **Principais Desenvolvedores:** [Stella Karolina](https://github.com/StellaKarolinaNunes)
+ - **Repositório:** [Calculadora Simples em PHP no GitHub](https://github.com/StellaKarolinaNunes/Calculadora-Simples-em-PHP)
+ - **LinkedIn:** [Stella Karolina Nunes](https://www.linkedin.com/in/stella-karolina/)
+
+ <br>
+
+ ## Créditos
+
+ O **Calculadora Simples em PHP** é construído com o apoio de tecnologias e comunidades incríveis:
+
+ - **Linguagem de Programação**[PHP](https://www.php.net/)
+ - **Linguagem de Marcação**[HTML5 & CSS3](https://www.w3schools.com/)
+ - **Linguagem de Estilo**[Font Awesome](https://fontawesome.com/)
+ - **Fontes**[Google Fonts](https://fonts.google.com/)
+ - **Badges**[Shields.io](https://shields.io/)
+ - **Professor Orientador:** [Alex Santos de Oliveira](https://github.com/alex2024383)
+
+ <br>
+
+ 
+### Desenvolvimento Principal
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/StellaKarolinaNunes">
+        <img src="https://github.com/StellaKarolinaNunes.png" width="100px" alt="Stella Karolina"/>
+        <br />
+        <sub><b>Stella Karolina Nunes Peixoto</b></sub>
+        <br />
+      </a>
+    </td>
+  </tr>
+</table>
